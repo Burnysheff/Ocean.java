@@ -1,0 +1,23 @@
+Meaning of symbols in the cells:
+    " " : we don't know what is there
+    "@" : Ship is not there (it is near the cell with a ship and we know it)
+    "*" : Ship is there, it is not destroyed yet
+    "#" : destroyed ships is there
+Console Dialogs:
+    1. We ask user to enter length and width of ocean (numbers should be > 0)
+    2. We ask user to enter a number of ships each type (number should be >= 0)
+    3. We ask user to switch on (or nor switch) a recovery mode - its a menu of 2 fields -
+    - user should enter "1" or "2".
+    4. We can tell user that ships don't fit an ocean - there is a menu of fields:
+        - Change ocean size (go to point 1)
+        - Change ships quantity (go to point 2)
+        - Quit the game
+        User should enter "1", "2", "3"
+    5. We ask user to choose number of torpedoes (number should be >= 0)
+    6. User can choose line and column for the shot (numbers should be > 0 and
+     <= size of ocean). Also, user can type "T" before selecting a line - then a
+     torpedo mode will be activated (of number of torpedoes > 0)
+     Use can select line as 0 - then he will quite a game.
+    7. User is asked to take a shot until he destroy every ship or quit the game by typing "0" as line.
+
+THAT COMMANDS ARE DUPLICATED IN CONSOLE WHILE USER IS WORKING WITH PROGRAM
